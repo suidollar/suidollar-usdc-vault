@@ -1,0 +1,48 @@
+---
+compiled_package_info:
+  package_name: suidollar
+  address_alias_instantiation:
+    SupraOracle: 5d8fbbf6f908a4af8c6d072669a462d53e03eb3c1d863bd0359dc818c69ea706
+    lending_core: d899cf7d2b5db716bd2cf55599fb0d5ee38a3061e7b6bb6eebf73fa5bc4c81ca
+    math: 66aa3335901ce7e04b85ed6597ee42d4b479f7110bf98e8ebd474fa32a0027e1
+    oracle: ca441b44943c16be0e6e23c5a955bb971537ea3289ae8016fbf33fffe1fd210f
+    pyth: 8d97f1cd6ac663735be08d1d2b6d02a159e711586461306ce60a2b7a6a565a9e
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    suidollar: "0000000000000000000000000000000000000000000000000000000000000000"
+    supra_utils: 1ee7b04f04ef049a6d711d0c0446d7b67b63c27c1397efa9536145085a4d1b7c
+    supra_validator: 3a75968d0951fc99e7b336b26088d0f6888efd691b9cf2ac61c3958cfaa6d41b
+    utils: 66aa3335901ce7e04b85ed6597ee42d4b479f7110bf98e8ebd474fa32a0027e1
+    wormhole: 5306f64e312b581766351c07af79c72fcb1cd25147157fdc2f8ad76de9a3fb6a
+  source_digest: 2177BA6DA93C9C6A88379D650F9C38352F6C33E777A568D90620EA2F7C0A78F7
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Pyth
+  - Sui
+  - SupraOracle
+  - Wormhole
+  - lending_core
+  - math
+  - oracle
+  - supra_utils
+  - supra_validator
+  - utils

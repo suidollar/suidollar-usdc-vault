@@ -1,1 +1,1 @@
-# suidollar-usdc-vault
+# suidollar_usdc_vault_contract

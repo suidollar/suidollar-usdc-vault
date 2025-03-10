@@ -12,7 +12,7 @@ module suidollar::suidollar {
     use lending_core::incentive_v2::{Self as incentive_v2, Incentive as IncentiveV2 , IncentiveFundsPool}; 
     use lending_core::storage::{Storage};
 
-    const BLUEFIN_ADDRESS: address = @0x52fbad73a5bc8b85d54ed204b4c6d786bd9814d7a81e7b6d817fab8125164fbf;
+    const BLUEFIN_ADDRESS: address = @0xee9130d916e7ef613be9a7b9368b13fe539f0471a2a2fa84481944ab5b73cbd1;
 
     public struct MyStruct has key, store {
         id: UID, 

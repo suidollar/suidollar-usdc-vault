@@ -199,4 +199,16 @@ module suidollar::suidollar {
         incentive_v2::claim_reward_with_account_cap(clock, incentive, funds_pool, storage, asset, option, &me.navi_account)
     }
 
+        public fun get_account_cap(me: &MyStruct): &AccountCap {
+        &me.navi_account
+    }
+
+        public fun get_balance<CoinType>(treasury: &mut Treasury<CoinType>): &mut Balance<CoinType> {
+        &mut treasury.balance
+    }
+
+        public fun get_fee_balance<CoinType>(treasury: &mut Treasury<CoinType>): &mut Balance<CoinType> {
+        &mut treasury.fee_balance
+    }
+
 }

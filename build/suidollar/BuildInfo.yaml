@@ -14,11 +14,12 @@ compiled_package_info:
     supra_validator: 3a75968d0951fc99e7b336b26088d0f6888efd691b9cf2ac61c3958cfaa6d41b
     utils: 66aa3335901ce7e04b85ed6597ee42d4b479f7110bf98e8ebd474fa32a0027e1
     wormhole: 5306f64e312b581766351c07af79c72fcb1cd25147157fdc2f8ad76de9a3fb6a
-  source_digest: 914AACFE5522C50581AEE931F7EE0D1C8C04EC2BB2EC51C004B7CFB8463798F0
+  source_digest: DFFB64E817ABD76513A3014C9DEFDB02614F722DD2DF43025D1336C9E101D2BA
   build_flags:
     dev_mode: false
     test_mode: false
     generate_docs: false
+    save_disassembly: false
     install_dir: ~
     force_recompilation: false
     lock_file: "./Move.lock"
